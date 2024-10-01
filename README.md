@@ -28,6 +28,19 @@ password
 ```
 # So change it incase you want a different password
 
+Change these lines in the code
+
+```
+sudo mysql -u root -proot_password -e "GRANT ALL PRIVILEGES ON dvwa.* TO 'dvwauser'@'localhost' IDENTIFIED BY 'password';"
+
+```
+In the DVWA configuration file (config.inc.php):
+
+```
+sudo sed -i "s/''/'password'/g" config.inc.php
+
+```
+
 ## Installation Steps
 
 Follow these steps to install DVWA on Arch Linux using the provided script.
