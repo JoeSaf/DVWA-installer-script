@@ -37,8 +37,8 @@ Follow these steps to install DVWA on Arch Linux using the provided script.
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/dvwa-arch-install.git
-cd dvwa-arch-install
+git clone https://github.com/JoeSaf/DVWA-installer-script.git
+cd DVWA-installer-script
 
 ```
 
